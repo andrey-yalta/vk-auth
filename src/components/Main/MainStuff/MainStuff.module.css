@@ -1,0 +1,48 @@
+.mainStuff {
+    width: 540px;
+    text-align: center;
+}
+.mainStuff .mainInformationImg {
+    justify-content: center;
+    height: 198px;
+    width: 442px;
+}
+.mainStuff .mainInformationImg #iphone {
+    background: no-repeat 0 0;
+    margin-left: -31px;
+}
+
+.mainInformation {
+    color: black;
+}
+.mainInformation h2 {
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+.mainInformation span {
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: #626d7a;
+    line-height: 20px;
+}
+
+.mainInformationLinks a {
+    font-size: 12px;
+    display: inline-block;
+    color: #2a5885;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.mainInformationLinks a:hover {
+    background: #dee3e8;
+}
+.linksItem{}
+
+
+
