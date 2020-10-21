@@ -7,11 +7,8 @@ const Main =()=>{
     return(
       <div className={s.main}>
             <MainStuff/>
-            <MainForms/>
-          <div className={s.learnMore +" "+s.componentsItem}>
-              <span>После регистрации Вы получите доступ ко всем возможностям VK Connect.</span>
-              <a href="https://connect.vk.com/promo?">Узнать больше</a>
-          </div>
+            <MainForms className={s.componentsItem} />
+
       </div>
     )
 }

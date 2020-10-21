@@ -13,7 +13,7 @@ const MainStuff =()=>{
                 <a href="https://play.google.com/store/apps/details?id=com.vkontakte.android"
                    className={s.mainInformationImg}><img src={android} alt="android"/></a>
                 <a href="https://apps.apple.com/ru/app/id564177498" className={s.mainInformationImg}>
-                    <img id="iphone" src={iphone} alt="iphone"/></a>
+                    <img className={s.iphone} src={iphone} alt="iphone"/></a>
 
                 <div className={s.mainInformationLinks}>
                     <a className={s.linksItem} href="https://play.google.com/store/apps/details?id=com.vkontakte.android">

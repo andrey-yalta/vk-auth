@@ -1,0 +1,41 @@
+hr {
+    color: #dce1e7;
+    border: 0.5px solid #dce1e7;
+}
+
+/********************************FOOTER**********************/
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #2a5885;
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    color: #2a5885;
+}
+footer a:hover {
+    color: #2a5885;
+}
+
+.footerMerge {
+    display: flex;
+    margin-right: 80px;
+}
+.footerMerge span {
+    color: #626d7a;
+}
+
+.footerLinks {
+    margin-right: 80px;
+}
+.footerLinks ul li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.footerLanguages ul li {
+    display: inline;
+    margin-right: 8px;
+}

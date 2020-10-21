@@ -1,0 +1,278 @@
+.mainForms {
+    width: 320px;
+    margin-left: 100px;
+}
+.mainForms input {
+    width: 270px;
+    padding: 6px 12px 8px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #d3d9de;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 35px;
+    color: black;
+}
+.mainForms input {
+    outline: none;
+}
+.mainForms input::-webkit-input-placeholder {
+    color: grey;
+}
+
+.mainLogin button {
+    margin-top: 5px;
+    border-radius: 3px;
+    width: 100px;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    padding: 7px 16px 8px;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    background: 0 0;
+    background-color: #5181b8;
+    border: 0;
+}
+.mainLogin a {
+    margin-left: 15px;
+    padding-top: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    color: #2a5885;
+}
+
+.mainRegistration {
+    text-align: center;
+}
+.mainRegistration h2 {
+    color: black;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+.mainRegistration span {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #626d7a;
+    line-height: 20px;
+}
+
+.spanData {
+    text-align: left;
+    margin-bottom: 10px !important;
+}
+.spanData img {
+    margin-left: 5px;
+}
+
+[data-tooltip] {
+    display: inline-block;
+    position: relative;
+    /* Относительное позиционирование */
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    /* Выводим текст */
+    position: absolute;
+    /* Абсолютное позиционирование */
+    width: 300px;
+    /* Ширина подсказки */
+    left: -10px;
+    bottom: 30px;
+    /* Положение подсказки */
+    background: white;
+    /* Синий цвет фона */
+    color: #000;
+    /* Цвет текста */
+    padding: 0.5em;
+    /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Параметры тени */
+    pointer-events: none;
+    /* Подсказка */
+    opacity: 0;
+    /* Подсказка невидима */
+    transition: 1s;
+    /* Время появления подсказки */
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1;
+    /* Показываем подсказку */
+}
+
+.mainItem {
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.mainRegistration button {
+    width: 270px;
+    height: 35px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 7px 16px 8px;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.mainRegistration button img {
+    float: left;
+}
+
+.facebookBtn {
+    background-color: #1b6dd1;
+}
+
+.registrationBtn {
+    background-color: #4bb34b;
+}
+
+
+.componentsItem{
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.learnMore {
+    text-align: center;
+    font-size: 12px;
+}
+.learnMore span {
+    font-size: 12px;
+    color: #626d7a;
+    line-height: 20px;
+}
+
+
+/**************MENU SELECTOR*****/
+span.msg,
+span.choose {
+    color: #555;
+    padding: 5px 0 10px;
+    display: inherit;
+}
+
+.container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.day {
+    width: 75px;
+}
+
+.month {
+    width: 98px;
+}
+
+.year {
+    width: 75px;
+    float: right;
+}
+
+/*Styling Selectbox*/
+.dropdown {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #cccccc;
+    transition: all 0.5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    height: 100%;
+    text-align: left;
+    margin-right: 4px;
+}
+
+.dropdown img {
+    margin-left: 5px;
+}
+
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown .select > i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    float: right;
+    line-height: 20px;
+}
+
+.dropdown:hover {
+    box-shadow: 0 0 4px #cccccc;
+}
+
+.dropdown:active {
+    background-color: #f8f8f8;
+}
+
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px #cccccc;
+    border-radius: 2px 2px 0 0;
+    background-color: #f8f8f8;
+}
+
+.dropdown.active .select > i {
+    transform: rotate(-90deg);
+}
+
+.dropdown .dropdownMenu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px #cccccc;
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9;
+}
+
+.dropdown .dropdownMenu li {
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.dropdown .dropdownMenu {
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown .dropdownMenu li:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown .dropdownMenu li:active {
+    background-color: #e2e2e2;
+}
+
+/**************MENU SELECTOR*****/
