@@ -241,6 +241,14 @@ span.choose {
     transform: rotate(-90deg);
 }
 
+/*.block{*/
+/*    display: block !important;*/
+/*}*/
+
+.year:hover > ul , .day:hover  > ul ,.month:hover  > ul {
+    display: block;
+}
+
 .dropdown .dropdownMenu {
     position: absolute;
     background-color: #fff;
@@ -255,6 +263,8 @@ span.choose {
     overflow-y: auto;
     z-index: 9;
 }
+
+
 
 .dropdown .dropdownMenu li {
     padding: 10px;

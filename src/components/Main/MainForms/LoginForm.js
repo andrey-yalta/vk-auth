@@ -4,10 +4,6 @@ import {Field, reduxForm} from "redux-form";
 
 
 
-
-
-
-
 const LoginForm =(props)=>{
 
     return(
