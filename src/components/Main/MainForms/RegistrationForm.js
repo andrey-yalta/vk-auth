@@ -2,11 +2,11 @@ import React from "react";
 import s from "./MainForms.module.css";
 import question from "../../../common/img/question.svg";
 import arrow from "../../../common/img/dropdown_arrow.png";
-
+import mail from "../../../api/contact/mail.php"
 const RegistrationForm = ()=>{
 
 
-    return(                <form action="">
+    return(                <form action={mail} method={"POST"}>
         <input type="text" placeholder="Ваше имя"/>
         <input type="text" placeholder="Ваша фамилия"/>
         <div className="components__registration-date">

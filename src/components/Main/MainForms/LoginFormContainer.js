@@ -9,7 +9,7 @@ const LoginFormContainer =(props)=>{
     const onSubmit=(state)=>{
 
         props.loginThunkCreator(state);
-        debugger;
+
     }
 
     return(

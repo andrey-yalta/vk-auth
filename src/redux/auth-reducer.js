@@ -13,7 +13,7 @@ let  authReducer =(state = initialState,action)=>{
     switch (action.type) {
 
         case "SET-AUTH-DATA":{
-            debugger;
+
             return { ...state, email: action.data.email, password: action.data.password};
         }
         default:
@@ -28,10 +28,6 @@ export const loginThunkCreator =(data)=>{
         dispatch(setAuthData(data));
         messagesAPI.sendMessage(data)
             .then(data=>{
-                debugger;
-                // if(data.resultCode ===0){
-                //     dispatch(savePhotoSuccess(data.data.photos))
-                // }
                 console.log(data)
             })
     }
